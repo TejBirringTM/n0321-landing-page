@@ -1,0 +1,3 @@
+@mixin box-shadow($blur-radius) {
+  box-shadow: 0 0 $blur-radius 0 rgba(0, 0, 0, .2);
+};

@@ -1,0 +1,38 @@
+/*
+  Philosophy:
+    * Saturation is passion. Use high saturation for passionate headlines.
+    * Disabled is gray.
+
+  Helpers:
+    * Palette Visualization:
+      https://coolors.co/fffafb-711414-5d2828-efe3e1-f2e3d4-a76e58-e79818-444140
+      // https://hookagency.com/blog/website-color-schemes/
+*/
+
+
+//
+$clr-dark: #353536; // Jet
+$clr-dark-2: #49494B; // Davys Grey
+$clr-luminesce: #AD4500; // Rich Black/Eagle Green
+$clr-light: #EBEFEF; // Cultured
+$clr-muted: #9A9C9D; // Spanish Gray
+$clr-primary: #d1bfa7;
+$clr-secondary: #A39274;
+$clr-tertiary: #23639F;
+
+
+// color map
+$colors: (
+    dark: $clr-dark,
+    dark-2: $clr-dark-2,
+    muted: $clr-muted,
+    light: $clr-light,
+    primary: $clr-primary,
+    secondary: $clr-secondary,
+    luminesce: $clr-luminesce,
+    tertiary: $clr-tertiary
+);
+
+//@each $key, $val in $colors {
+//
+//}
